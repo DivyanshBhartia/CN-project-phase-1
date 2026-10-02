@@ -4,10 +4,10 @@ distinguished_name = dn
 x509_extensions = ext
 
 [dn]
-CN = app.teamX.test
+CN = app.divyansh.test
 
 [ext]
-subjectAltName = DNS:app.teamX.test,DNS:api.teamX.test
+subjectAltName = DNS:app.divyansh.test,DNS:api.divyansh.test
 basicConstraints = critical,CA:FALSE
 keyUsage = critical,digitalSignature,keyEncipherment
 extendedKeyUsage = serverAuth
