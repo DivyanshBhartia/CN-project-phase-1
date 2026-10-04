@@ -6,12 +6,12 @@ See the [architecture document](01_architecture/architecture_doc.md) for topolog
 
 ## Lab services
 
-| Machine | Role | Recorded address | Service |
-| --- | --- | --- | --- |
-| Mac 1 | Private DNS and client checks | `10.7.17.71` | dnsmasq, UDP/TCP 53 |
-| Mac 2 | HTTPS edge and load balancer | `10.7.17.165` | NGINX, TCP 443 |
-| Mac 3 | Backend A | `10.7.5.3` | Python HTTP server, TCP 3001 |
-| Mac 4 | Backend B, client checks, packet capture | `10.7.11.219` | Python HTTP server, TCP 3002 |
+| Members | Machine | Role | Recorded address | Service |
+| --- | --- | --- | --- | --- |
+Divyansh | Mac 1 | Private DNS and client checks | `10.7.17.71` | dnsmasq, UDP/TCP 53 |
+Vansh | Mac 2 | HTTPS edge and load balancer | `10.7.17.165` | NGINX, TCP 443 |
+Vidit | Mac 3 | Backend A | `10.7.5.3` | Python HTTP server, TCP 3001 |
+Lakshay | Mac 4 | Backend B, client checks, packet capture | `10.7.11.219` | Python HTTP server, TCP 3002 |
 
 These are recorded lab addresses, not fixed requirements. Recheck addresses and connectivity before each run. Both DNS names point to Mac 2 and serve the same endpoints.
 
